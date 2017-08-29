@@ -1,4 +1,4 @@
-#Modified version of original marvambass versatile postfix
+# Modified version of original marvambass versatile postfix
 
 * added docker compose file
 * increased message size
