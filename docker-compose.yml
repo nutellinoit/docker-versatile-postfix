@@ -1,0 +1,18 @@
+version: '2'
+services:
+  main_image:
+      restart: always
+      build: .
+      volumes:
+            - ./opendkim/:/etc/postfix/dkim/
+      ports:
+            - '25:25'
+      environment:
+        ALIASES: "postmaster:root;hostmaster:root;webmaster:root"
+      command: domain.tld user1:password1 user2:password2
+
+
+
+
+
+

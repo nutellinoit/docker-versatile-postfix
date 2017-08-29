@@ -1,3 +1,19 @@
+#Modified version of original marvambass versatile postfix
+
+* added docker compose file
+* increased message size
+* mydestination set as localhost
+
+
+To run project:
+
+```bash
+docker-compose up -d
+```
+
+
+
+
 # Versatile Postfix Mail Server (marvambass/versatile-postfix)
 _maintained by MarvAmBass_
 
